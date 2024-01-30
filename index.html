@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header id="weather">
+        <h1> Weather App </h1>
+    </header>
+
+    <main>
+        <section id="searchLocation">
+            <input type="text" name="locationInput" id="locationInput" onkeyup="text()" autofocus size="50" placeholder="Enter Your City Here....">
+            <button id="searchButton"><i class="fa fa-search"></i></button>
+        </section>
+
+        <section id="weatherInfo">
+            <h2 id="location">Location: -- </h2>
+            <h2 id="temperature">Temperature: -- &deg;C </h2> 
+            <h2 id="description">Sky Condition: -- </h2>
+            <h2 id="wind"> Wind Speed: -- km/h</h2>
+        </section>
+    </main>
+
+    <footer id="foot">
+        Copyright &copy; 2024 &nbsp; All  Rights  Reserved.
+        
+    </footer>
+
+    <script src="script.js"> </script>
+
+</body>
+</html>
